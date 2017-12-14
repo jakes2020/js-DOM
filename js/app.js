@@ -2,8 +2,11 @@
 
 /*1. Taylor Swift
 
+
 Find the element with the id of "name1":
 	- Replace the content with the following string "Tay-Tay"*/
+
+document.getElementById("name1").innerHTML = "Tay-Tay";
 
 /*2. DJ Khaled
 
@@ -12,6 +15,8 @@ Find the element with the id of "position2":
 	- Change the background color to red
 */
 
+document.getElementById("position2").innerHTML = "Project Manager";
+document.getElementById("position2").style.backgroundColor = "red";
 
 /*3. Piko Taro
 
@@ -20,12 +25,18 @@ Find the element with the id of "alias3":
 	- Change the font size to 40
 */
 
+document.getElementById("alias3").innerHTML = "Concatenation";
+document.getElementById("alias3").style.fontSize = "40px";
+
+
 /*4. Prince
 
 Find the element with the class name of "profile": 
 	- Replace the content with a verse from your favorite Prince song
 	- Change the styles of the font-family to Sans Serif
 */
+
+document.getElementsByClassName("                                            ").innerHTML = "How can you just leave me standing ? Alone in a world thats so cold? Maybe Im just too demanding Maybe youre just like my mother Shes never satisfied Why do we scream at each other This is what it sounds like When doves cry";
 
 /*5. Bruce Lee
 
